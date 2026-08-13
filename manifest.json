@@ -1,0 +1,17 @@
+{
+  "name": "PEAL Chat",
+  "short_name": "PEAL",
+  "description": "Privacy-first P2P chat application with Tor onion routing and garlic encryption",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0d12",
+  "theme_color": "#00e676",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "100x140",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
