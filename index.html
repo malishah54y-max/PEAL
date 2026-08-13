@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" fill="none">
+  <path d="M50 10 L85 25 V50 C85 70 50 90 50 90 C50 90 15 70 15 50 V25 L50 10 Z" stroke="#00e676" stroke-width="3" fill="#0a0d12"/>
+  <path d="M30 40 L40 55 L50 35 L60 55 L70 40 L65 65 H35 L30 40 Z" stroke="#00e676" stroke-width="2.5" fill="rgba(0,230,118,0.1)"/>
+  <circle cx="50" cy="52" r="4" fill="#00e676"/>
+  <path d="M50 56 V62" stroke="#00e676" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="50" y="110" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="7" font-weight="bold" letter-spacing="4" fill="#00e676">PEAL</text>
+  <text x="50" y="120" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="5" letter-spacing="3" fill="#00e676" opacity="0.7">CHAT</text>
+</svg>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEAL - Privacy First</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="splash">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140" fill="none">
+            <path d="M50 10 L85 25 V50 C85 70 50 90 50 90 C50 90 15 70 15 50 V25 L50 10 Z" stroke="#00e676" stroke-width="3" fill="#0a0d12"/>
+            <path d="M30 40 L40 55 L50 35 L60 55 L70 40 L65 65 H35 L30 40 Z" stroke="#00e676" stroke-width="2.5" fill="rgba(0,230,118,0.1)"/>
+            <circle cx="50" cy="52" r="4" fill="#00e676"/>
+            <path d="M50 56 V62" stroke="#00e676" stroke-width="2.5" stroke-linecap="round"/>
+            <text x="50" y="110" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="7" font-weight="bold" letter-spacing="4" fill="#00e676">PEAL</text>
+            <text x="50" y="120" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="5" letter-spacing="3" fill="#00e676" opacity="0.7">CHAT</text>
+        </svg>
+    </div>
+
+    <div id="app" style="display:none;">
+        <div id="auth-screen">
+            <h2>PEAL Chat</h2>
+            <input type="text" id="name" placeholder="Full Name or Fake Name">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirm-password" placeholder="Confirm Password">
+            <button onclick="createAccount()">Create Account</button>
+            <p>Already have account? <a href="#" onclick="showLogin()">Login</a></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
